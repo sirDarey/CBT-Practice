@@ -1,0 +1,18 @@
+.Gbutton {
+    -fx-border-color: purple;
+    -fx-border-width: 2px;
+}
+.Gbutton:hover {
+    -fx-border-color: blue;
+}
+.Qbutton {
+    -fx-background-color: #f400ff;
+}
+
+.Qbutton:hover {
+    -fx-background-color: blue;
+}
+
+.qbutton:hover {
+    -fx-background-color: blue;
+}

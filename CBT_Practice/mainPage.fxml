@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<SplitPane dividerPositions="0.39556592765460913" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#enterPage1" prefHeight="1069.0" prefWidth="859.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="realentryass.mainController">
+   <items>
+      <AnchorPane minHeight="0.0" prefHeight="160.0" prefWidth="20.0" SplitPane.resizableWithParent="false">
+          <children>
+              <Text fill="PURPLE" layoutX="14.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Questions Navigator">
+                  <font>
+                      <Font name="System Italic" size="18.0" />
+                  </font>
+              </Text>
+              <Button layoutX="9.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ1" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="1">
+                  <font>
+                      <Font name="System Bold" size="12.0" />
+                  </font>
+              </Button>
+              <Button layoutX="41.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ2" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="2">
+                  <font>
+                      <Font name="System Bold" size="12.0" />
+                  </font>
+              </Button>
+              <Button layoutX="73.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ3" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="3">
+                  <font>
+                      <Font name="System Bold" size="12.0" />
+                  </font>
+              </Button>
+              <Button layoutX="105.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ4" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="4">
+                  <font>
+                      <Font name="System Bold" size="12.0" />
+                  </font>
+              </Button>
+              <Button layoutX="137.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ5" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="5">
+                  <font>
+                      <Font name="System Bold" size="12.0" />
+                  </font>
+              </Button>
+            <Button layoutX="169.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ6" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="6">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="201.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ7" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="7">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="233.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ8" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="8">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="265.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ9" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="9">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="297.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ10" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="10">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="9.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ11" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="11">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="41.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ12" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="12">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="73.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ13" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="13">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="105.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ14" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="14">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="137.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ15" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="15">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="169.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ16" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="16">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="201.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ17" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="17">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="233.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ18" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="18">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="265.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ19" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="19">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="297.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ20" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="20">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="9.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ21" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="21">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="41.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ22" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="22">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="73.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ23" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="23">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="105.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ24" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="24">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="137.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ25" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="25">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="169.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ26" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="26">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="201.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ27" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="27">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="233.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ28" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="28">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="265.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ29" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="29">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="297.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ30" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="30">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="9.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ31" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="31">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="41.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ32" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="32">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="73.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ33" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="33">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="105.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ34" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="34">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="137.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ35" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="35">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="169.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ36" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="36">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="201.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ37" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="37">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="233.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ38" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="38">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="265.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ39" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="39">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="297.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ40" prefHeight="28.0" prefWidth="30.0" styleClass="qbutton" stylesheets="@button.css" text="40">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <VBox layoutX="14.0" layoutY="26.0">
+               <children>
+                  <Label text="TIME LEFT:">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <HBox spacing="2.0">
+                     <children>
+                              <Label fx:id="labelMin" text="30">
+                                  <font>
+                                      <Font name="System Bold" size="18.0" />
+                                  </font>
+                              </Label>
+                              <Label text="Mins">
+                                  <font>
+                                      <Font name="System Bold" size="18.0" />
+                                  </font>
+                              </Label>
+                              <Label fx:id="labelSec" text="0">
+                                  <font>
+                                      <Font name="System Bold" size="18.0" />
+                                  </font>
+                              </Label>
+                              <Label text="Secs">
+                                  <font>
+                                      <Font name="System Bold" size="18.0" />
+                                  </font>
+                              </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="80.0" layoutY="467.0" spacing="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@logo.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label text="THINK QUALITY" textFill="PURPLE">
+                     <font>
+                        <Font name="Algerian" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label text="THINK STGEI" textFill="PURPLE">
+                     <font>
+                        <Font name="Algerian" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" layoutY="308.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#finishAttempt" prefHeight="28.0" prefWidth="228.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" styleClass="Gbutton" stylesheets="@button.css" text="FINISH ATTEMPT">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </HBox>
+            <Button fx:id="button1" layoutX="9.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ1" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="1" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button2" layoutX="41.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ2" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="2" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button3" layoutX="73.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ3" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="3" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button4" layoutX="105.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ4" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="4" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button5" layoutX="137.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ5" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="5" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button6" layoutX="169.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ6" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="6" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button7" layoutX="201.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ7" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="7" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button8" layoutX="233.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ8" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="8" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button9" layoutX="265.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ9" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="9" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button10" layoutX="297.0" layoutY="124.0" mnemonicParsing="false" onAction="#toQ10" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="10" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button11" layoutX="9.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ11" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="11" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button12" layoutX="41.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ12" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="12" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button13" layoutX="73.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ13" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="13" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button14" layoutX="105.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ14" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="14" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button15" layoutX="137.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ15" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="15" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button16" layoutX="169.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ16" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="16" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button17" layoutX="201.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ17" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="17" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button18" layoutX="233.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ18" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="18" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button19" layoutX="265.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ19" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="19" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button20" layoutX="297.0" layoutY="157.0" mnemonicParsing="false" onAction="#toQ20" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="20" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button21" layoutX="9.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ21" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="21" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button22" layoutX="41.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ22" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="22" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button23" layoutX="73.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ23" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="23" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button24" layoutX="105.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ24" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="24" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button25" layoutX="137.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ25" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="25" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button26" layoutX="169.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ26" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="26" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button27" layoutX="201.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ27" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="27" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button28" layoutX="233.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ28" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="28" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button29" layoutX="265.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ29" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="29" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button30" layoutX="297.0" layoutY="190.0" mnemonicParsing="false" onAction="#toQ30" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="30" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button31" layoutX="9.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ31" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="31" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button32" layoutX="41.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ32" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="32" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button33" layoutX="73.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ33" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="33" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button34" layoutX="105.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ34" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="34" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button35" layoutX="137.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ35" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="35" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button36" layoutX="169.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ36" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="36" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button37" layoutX="201.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ37" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="37" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button38" layoutX="233.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ38" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="38" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button39" layoutX="265.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ39" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="39" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="button40" layoutX="297.0" layoutY="223.0" mnemonicParsing="false" onAction="#toQ40" prefHeight="28.0" prefWidth="30.0" styleClass="Qbutton" stylesheets="@button.css" text="40" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <VBox fx:id="allTime" layoutX="14.0" layoutY="26.0" visible="false">
+               <children>
+                  <Label text="TIME LEFT:" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <HBox spacing="2.0">
+                     <children>
+                        <Label fx:id="labelMin1" text="2" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="Mins">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelSec1" text="59" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="Secs">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+          </children>
+      </AnchorPane>
+    <AnchorPane>
+         <children>
+             <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                 <children>
+                     <HBox alignment="CENTER_RIGHT" prefWidth="606.0">
+                     <children>
+                        <Label fx:id="labelWelcome" text="Welcome" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets right="20.0" />
+                     </padding>
+                     </HBox>
+                     <HBox alignment="CENTER" prefHeight="42.0" style="-fx-background-color: PURPLE;">
+                         <children>
+                             <Label fx:id="labelSubject" text="USE OF ENGLISH" textFill="WHITE">
+                                 <font>
+                                     <Font name="Algerian" size="24.0" />
+                                 </font>
+                             </Label>
+                         </children>
+                         <padding>
+                             <Insets left="20.0" />
+                         </padding>
+                     </HBox>
+                       <VBox fx:id="blank" alignment="CENTER" />
+                 </children>
+             </VBox>
+         </children>
+      </AnchorPane>
+  </items>
+</SplitPane>

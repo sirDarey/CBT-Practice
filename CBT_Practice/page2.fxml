@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="page2" alignment="CENTER" onMouseExited="#savePage2Ans" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="realentryass.page2Controller">
+   <children>
+      <ScrollPane fx:id="scrollPane2" onMouseMoved="#checkTimer">
+         <content>
+            <VBox>
+               <children>
+                  <AnchorPane prefWidth="534.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="21.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="WHO means          ">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="ans21" layoutX="46.0" layoutY="47.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) World Health Organization">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ1" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b21" layoutX="46.0" layoutY="74.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) Women Health Organization" toggleGroup="$toggleQ1">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c21" layoutX="47.0" layoutY="101.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) Word Heard Often" toggleGroup="$toggleQ1">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d21" layoutX="46.0" layoutY="129.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) Women Hairdresser Organization" toggleGroup="$toggleQ1">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none1" layoutX="228.0" layoutY="71.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ1" visible="false" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="511.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="22.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="Which of the following is NOT a part of the human alimentary canal?    " wrapText="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="ans22" layoutX="46.0" layoutY="44.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) Diaphragm">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ2" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b22" layoutX="46.0" layoutY="73.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) Duodenum" toggleGroup="$toggleQ2">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c22" layoutX="46.0" layoutY="100.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) Mouth" toggleGroup="$toggleQ2">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d22" layoutX="46.0" layoutY="125.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) Oesophagus" toggleGroup="$toggleQ2">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none2" layoutX="238.0" layoutY="81.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ2" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="511.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="23.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="When was the NYSC established?   ">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a23" layoutX="46.0" layoutY="44.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) 22nd of May 1971">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ3" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b23" layoutX="46.0" layoutY="73.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) 23rd of May 1973" toggleGroup="$toggleQ3">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c23" layoutX="46.0" layoutY="100.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) 21st of May 1972" toggleGroup="$toggleQ3">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="ans23" layoutX="46.0" layoutY="125.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) 22nd of May 1973" toggleGroup="$toggleQ3">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none3" layoutX="258.0" layoutY="101.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ3" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="511.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="24.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="47.0" layoutY="16.0" text="The document issued by the seller which gives details of the goods is known as       ">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a24" layoutX="41.0" layoutY="48.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) catalogue">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ4" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b24" layoutX="42.0" layoutY="76.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) tender" toggleGroup="$toggleQ4">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c24" layoutX="41.0" layoutY="103.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) price list " toggleGroup="$toggleQ4">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="ans24" layoutX="41.0" layoutY="127.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) invoice " toggleGroup="$toggleQ4">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none4" layoutX="292.0" layoutY="91.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ4" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="155.0" prefWidth="707.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="25.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="The graphical user interface (GUI) application that retrieves and displays documents from web sites is referred to as    " wrapText="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="ans25" layoutX="46.0" layoutY="44.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) browser">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ5" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b25" layoutX="46.0" layoutY="71.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) domain" toggleGroup="$toggleQ5">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c25" layoutX="46.0" layoutY="98.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) search engine" toggleGroup="$toggleQ5">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d25" layoutX="46.0" layoutY="125.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) router " toggleGroup="$toggleQ5">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none5" layoutX="268.0" layoutY="111.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ5" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="534.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="26.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="The difference between the number of immigrants and emigrants is   ">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a26" layoutX="46.0" layoutY="41.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) natural growth rate">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ6" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b26" layoutX="46.0" layoutY="68.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) natural increase" toggleGroup="$toggleQ6">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="ans26" layoutX="47.0" layoutY="95.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) net migration" toggleGroup="$toggleQ6">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d26" layoutX="46.0" layoutY="123.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) census" toggleGroup="$toggleQ6">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none6" layoutX="228.0" layoutY="71.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ6" visible="false" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="511.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="27.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="The first African and only Nigerian to win a nobel prize in literature is " wrapText="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a27" layoutX="46.0" layoutY="44.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) Prof.  Chinua Achebe">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ7" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b27" layoutX="46.0" layoutY="73.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) Chris Okigbo" toggleGroup="$toggleQ7">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="ans27" layoutX="46.0" layoutY="100.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) Prof. Wole Soyinka" toggleGroup="$toggleQ7">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d27" layoutX="46.0" layoutY="125.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) Prof. Akinwunmi Ishola" toggleGroup="$toggleQ7">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none7" layoutX="238.0" layoutY="81.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ7" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="511.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="28.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="How many hours does it take for the earth to rotate about its own  axis">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a28" layoutX="46.0" layoutY="44.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) 7 hours">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ8" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b28" layoutX="46.0" layoutY="73.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) 12hours" toggleGroup="$toggleQ8">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="ans28" layoutX="46.0" layoutY="100.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) 24 hours" toggleGroup="$toggleQ8">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d28" layoutX="46.0" layoutY="125.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) 36 hours" toggleGroup="$toggleQ8">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none8" layoutX="258.0" layoutY="101.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ8" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="511.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="29.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="Nigeria is bounded in the north by which of the following countries?">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a29" layoutX="46.0" layoutY="48.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) Togo">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ9" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b29" layoutX="47.0" layoutY="76.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) Cameroun" toggleGroup="$toggleQ9">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c29" layoutX="46.0" layoutY="103.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) Ghana" toggleGroup="$toggleQ9">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="ans29" layoutX="46.0" layoutY="127.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) Niger" toggleGroup="$toggleQ9">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none9" layoutX="292.0" layoutY="91.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ9" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="155.0" prefWidth="707.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="30.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="What is the third planet of the solar system?" wrapText="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="ans30" layoutX="46.0" layoutY="44.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) Earth">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ10" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b30" layoutX="46.0" layoutY="73.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) Mars" toggleGroup="$toggleQ10">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c30" layoutX="46.0" layoutY="100.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) Venus" toggleGroup="$toggleQ10">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d30" layoutX="46.0" layoutY="125.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) Uranus" toggleGroup="$toggleQ10">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none10" layoutX="268.0" layoutY="111.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ10" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="534.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="31.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="47.0" layoutY="16.0" text="How many members make up  the Nigerian senate, the upper arm of the national assembly?">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a31" layoutX="47.0" layoutY="41.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) 100">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ11" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="b31" layoutX="47.0" layoutY="68.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) 108" toggleGroup="$toggleQ11">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="ans31" layoutX="48.0" layoutY="95.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) 109" toggleGroup="$toggleQ11">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d31" layoutX="47.0" layoutY="123.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) 110" toggleGroup="$toggleQ11">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none11" layoutX="228.0" layoutY="71.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ11" visible="false" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="511.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="32.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="The final score of 2020 UEFA Champions league final is- " wrapText="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="ans32" layoutX="46.0" layoutY="44.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) PSG 0  -  1  Bayern Munich">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ12" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="b32" layoutX="46.0" layoutY="73.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) Real Madrid 2   -  1  PSG" toggleGroup="$toggleQ12">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c32" layoutX="46.0" layoutY="100.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) Bayern Munich 2  -  1   PSG" toggleGroup="$toggleQ12">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d32" layoutX="46.0" layoutY="125.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) Bayern Munich  8  -   2  Barcelona" toggleGroup="$toggleQ12">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none12" layoutX="238.0" layoutY="81.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ12" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="511.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="33.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="The newest country in Africa is -">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a33" layoutX="46.0" layoutY="44.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) South Africa">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ13" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="ans33" layoutX="46.0" layoutY="73.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) South Sudan" toggleGroup="$toggleQ13">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c33" layoutX="46.0" layoutY="100.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) Malawi" toggleGroup="$toggleQ13">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d33" layoutX="46.0" layoutY="125.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) Sharawa Republic" toggleGroup="$toggleQ13">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none13" layoutX="258.0" layoutY="101.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ13" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefWidth="511.0">
+                     <children>
+                        <Label layoutX="16.0" layoutY="16.0" text="34.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="47.0" layoutY="16.0" text="At what temperature will water transform into steam?">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a34" layoutX="47.0" layoutY="41.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) 90 degrees Celsius">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ14" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="ans34" layoutX="48.0" layoutY="69.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) 100 degrees Celsius" toggleGroup="$toggleQ14">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="c34" layoutX="47.0" layoutY="96.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) 110 degrees Celsius" toggleGroup="$toggleQ14">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d34" layoutX="47.0" layoutY="120.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) 150 degrees Celsius" toggleGroup="$toggleQ14">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none14" layoutX="292.0" layoutY="91.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ14" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="155.0" prefWidth="707.0">
+                     <children>
+                        <Label layoutX="15.0" layoutY="16.0" text="35.">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="16.0" text="What is a skyscraper?" wrapText="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="a35" layoutX="46.0" layoutY="44.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(a) A mountain">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="toggleQ15" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="b35" layoutX="46.0" layoutY="73.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(b) A bird" toggleGroup="$toggleQ15">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="ans35" layoutX="46.0" layoutY="100.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(c) A very tall modern building" toggleGroup="$toggleQ15">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="d35" layoutX="46.0" layoutY="125.0" mnemonicParsing="false" onAction="#attemptStatus1" onMouseClicked="#activateCss" text="(d) A very tall fat tree" toggleGroup="$toggleQ15">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton fx:id="none15" layoutX="268.0" layoutY="111.0" mnemonicParsing="false" selected="true" text="(e) none" toggleGroup="$toggleQ15" visible="false">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <HBox alignment="CENTER" onMouseMoved="#checkTimer" spacing="30.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#toPage1" onMouseEntered="#savePage2Ans" prefHeight="29.0" prefWidth="228.0" styleClass="Gbutton" stylesheets="@button.css" text="PREVIOUS PAGE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#toPage3" onMouseEntered="#savePage2Ans" prefHeight="28.0" prefWidth="228.0" styleClass="Gbutton" stylesheets="@button.css" text="NEXT PAGE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

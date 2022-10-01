@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="realentryass.indexController">
+   <children>
+      <ImageView fitHeight="273.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.jpg" />
+         </image>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+      </ImageView>
+      <Label text="WELCOME" textFill="PURPLE">
+         <font>
+            <Font name="Cambria Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label text="TO" textFill="PURPLE">
+         <font>
+            <Font name="Cambria Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label text="STGEI Entry Assessment" textFill="PURPLE">
+         <font>
+            <Font name="Cambria Bold" size="48.0" />
+         </font>
+      </Label>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label text="Instructions">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <AnchorPane>
+               <children>
+                  <Label layoutX="35.0" layoutY="2.0" text="Enter your student code (Without Space) to begin assessment.">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Circle fill="PURPLE" layoutX="18.0" layoutY="15.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane>
+               <children>
+                  <Label layoutX="35.0" layoutY="2.0" text="The assessment consists of 40 MCQs; Attempt all questions before the time runs out, else the timer submits automtically. ">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Circle fill="PURPLE" layoutX="18.0" layoutY="15.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane>
+               <children>
+                  <Label layoutX="35.0" layoutY="2.0" text="You can make use of the buttons at the 'Questions Navigator' to quickly navigate to desired question.">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Circle fill="PURPLE" layoutX="18.0" layoutY="15.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </AnchorPane>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </VBox>
+      <HBox alignment="CENTER" spacing="20.0">
+         <children>
+            <Label text="Student Code">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputCode" onAction="#beginAssessment" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: transparent; -fx-border-color: purple; -fx-border-radius: 20;" />
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <Label fx:id="labelValidateCode" text="*Enter a valid Student Code" textFill="RED" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#beginAssessment" prefHeight="43.0" prefWidth="297.0" style="-fx-border-radius: 5;" styleClass="Gbutton" stylesheets="@button.css" text="Begin Assessment">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
